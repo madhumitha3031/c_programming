@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int x;
+    scanf("%d",&x);
+        if(x>=0 && x<=100){
+            printf("%d",x%3==0?0:3-x%3);
+        }
+    else{
+            printf("Invalid score");
+            
+        } 
+    return 0;
+}
