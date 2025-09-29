@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    double P,Q,R,S;
+    scanf("%lf %lf %lf %lf",&P,&Q,&R,&S);
+
+    if(P>(Q+R+S)||Q>(P+R+S)||R>(P+Q+S)||S>(P+R+Q))
+        printf("YES");
+    else
+        printf("NO");
+    return 0;
+}
