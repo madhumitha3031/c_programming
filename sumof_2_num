@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    double x,y,sum;
+    scanf("%lf %lf",&x,&y);
+    sum = x + y;
+    if(sum == (long)sum)
+        printf("%ld", (long)sum);
+    else
+        printf("%.1lf", sum);
+    return 0;
+}
