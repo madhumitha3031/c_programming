@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    double a,b,c,d;
+    scanf("%lf %lf %lf %lf",&a,&b,&c,&d);
+    double sum,aver;
+    sum=a+b+c+d;
+    aver=sum/4;
+    printf("Sum = %.1lf\n",sum);
+    printf("Average = %.1lf",aver);
+    return 0;
+}
