@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+   double radius,area,peri;
+    scanf("%lf",&radius);
+    area=22/7.0*radius*radius;
+    peri=2*22/7.0*radius;
+    printf("Area : %.2lf\n",area);
+    printf("Perimeter : %.2lf",peri);
+    return 0;
+}
