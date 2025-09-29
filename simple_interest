@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    double P,N,R, SI;
+    scanf("%lf",&P);
+    scanf("%lf",&N);
+    scanf("%lf",&R);
+    SI=(P*N*R)/100;
+    printf("%.2lf",SI);
+        
+    return 0;
+}
