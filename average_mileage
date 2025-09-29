@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+
+    double cost,fuel,distance,mileage,perkm;
+    scanf("%lf %lf %lf",&cost,&fuel,&distance);
+    double litre=cost/fuel;
+    mileage=distance/litre;
+    perkm=fuel/mileage;
+    printf("Mileage : %07.2lf\n",mileage);
+    printf("Cost/KM : %07.2lf\n",perkm);
+    
+    return 0;
+}
