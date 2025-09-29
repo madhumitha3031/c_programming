@@ -1,0 +1,32 @@
+//sum and difference of two numbers
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a, b;
+    float c, d;
+
+    
+    scanf("%d %d", &a, &b);
+    scanf("%f %f", &c, &d);
+
+
+    int iSum = a + b;
+    int iDiff = a - b;
+
+
+    float fSum = c + d;
+    float fDiff = c - d;
+
+    printf("%d %d\n", iSum, iDiff);
+    printf("%.1f %.1f\n", fSum, fDiff);
+
+   
+	
+    
+    return 0;
+}
