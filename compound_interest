@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
+    double p,r,t;
+    double ci;
+    scanf("%lf",&p);
+    scanf("%lf",&r);
+    scanf("%lf",&t);
+    double a=p*((pow((1 + r/100),t)));
+    ci=a-p;
+    printf("%.2lf",ci);
+    return 0;
+}
