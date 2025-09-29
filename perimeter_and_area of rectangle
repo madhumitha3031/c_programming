@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    double len,wid,area,peri;
+    scanf("%lf",&len);
+    scanf("%lf",&wid);
+    area=len*wid;
+    printf("Area : %.2lf\n",area);
+    peri=2*(len+wid);
+    printf("Perimeter : %.2lf\n",peri);
+    return 0;
+}
