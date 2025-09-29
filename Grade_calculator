@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int mark;
+    scanf("%d",&mark);
+    if(mark>=1 && mark<=100){
+        if(mark>=76 && mark<=100)
+            printf("A");
+        else if(mark>=51 && mark<=75)
+            printf("B");
+        else if(mark>=26 && mark<=50)
+            printf("C");
+        else if(mark<25)
+            printf("D");
+    }
+            
+
+
+    return 0;
+}
