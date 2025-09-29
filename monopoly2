@@ -1,0 +1,26 @@
+// To find who is monopoly among 4 companies
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    double P,Q,R,S;
+    scanf("%lf %lf %lf %lf",&P,&Q,&R,&S);
+
+    if(P>(Q+R+S))
+          printf("Company A is monopoly");
+    else if (Q>(P+R+S))
+          printf("Company B is monopoly");
+    else if (R>(P+Q+S))
+          printf("Company C is monopoly");
+    else if (S>(P+R+Q))
+          printf("Company D is monopoly");
+    else
+        printf("NO one is monopoly");
+    
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
